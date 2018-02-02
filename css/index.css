@@ -1,0 +1,35 @@
+body{
+	background-image: url("./../img/background.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h5{
+	font-size: large;
+}
+
+
+.outer{
+	width: 50%;
+	margin: auto;
+	overflow: auto;
+}
+
+.image{	
+	width: 50%;
+	opacity: .9;
+	float: left;
+	padding: 10px;
+}
+
+.image img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+
+.description{	
+	float: right;
+	width:50%;	
+}
